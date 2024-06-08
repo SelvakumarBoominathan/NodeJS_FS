@@ -24,7 +24,7 @@ const safeFileName = new Date().toISOString().replace(/[:.]/g, "-"); // replace 
 const filePath = path.join(dirPath, `${safeFileName}.txt`);
 
 try {
-  fs.writeFileSync(filePath, Date.now().toString()); // filepath will ceate a new file, then content inside will be placed.
+  fs.writeFileSync(filePath, ` Time Stamp : ${Date.now().toString()}`); // filepath will ceate a new file, then content inside will be placed.
   console.log("File created successfully");
 } catch (error) {
   console.error(`Error writing file: ${error.message}`);
