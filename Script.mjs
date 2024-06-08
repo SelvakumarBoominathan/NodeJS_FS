@@ -30,4 +30,5 @@ try {
   console.error(`Error writing file: ${error.message}`);
 }
 
+//Run command
 //node script.mjs
