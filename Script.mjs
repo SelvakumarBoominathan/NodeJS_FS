@@ -2,10 +2,7 @@ import fs from "fs"; //importing file system
 import path from "path"; // importing path to create directory paths using 'join'
 import { fileURLToPath } from "url"; // used to convert the URL to path
 import { dirname } from "path"; // to extract the directory path from the file path.
-import express from "express";
 
-const server = express();
-const port = 5000;
 // Get the directory name of the current module file
 const Filename = fileURLToPath(import.meta.url); // File name will hold the URL of the this current file (ie : script.mjs) (eg: home/files/NODEJS_FS.script.mjs)
 const Dirname = dirname(Filename); // This will extract the directry path from file path (eg: home/files/NODEJS_FS)
@@ -33,5 +30,5 @@ try {
   console.error(`Error writing file: ${error.message}`);
 }
 
-//Run command for the above code:
+//Run command foradded
 //node script.mjs
