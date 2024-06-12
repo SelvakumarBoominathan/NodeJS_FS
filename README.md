@@ -1,5 +1,5 @@
 # Timestamp File Server
-A simple Express.js server that creates and reads text files with timestamps. The server allows you to create new files with content or timestamps and retrieve the contents of all files in a specific directory.
+A simple Express.js server that creates and reads text files with timestamps. The server allows you to create new files with only timestamps and retrieve the contents of all files in a specific directory.
 
 # Features
 POST /new-file: Create a new file with content or a timestamp.
