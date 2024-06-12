@@ -67,3 +67,6 @@ server.get("/files", (req, res) => {
 server.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
+
+// run server
+// node sample.mjs
